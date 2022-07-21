@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+}
+.world-cup1 {
+  height: 100%;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  /* justify-content: center;
+    align-items: center; */
+  padding: 2%;
+}
+.world-cup1 .coloum-one {
+  height: 30%;
+  width: 95%;
+  background: black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: center;
+    align-items: center; */
+  border-radius: 10px;
+}
+.world-cup1 .coloum-one .row1 {
+  padding: 5%;
+}
+.world-cup1 .coloum-one .row2 {
+  padding-bottom: 0px;
+}
+.world-cup1 .coloum-one .row1 button {
+  outline: none;
+  overflow: hidden;
+  border: none;
+  padding: 13px 25px;
+  background: red;
+  color: white;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+/* ---------------------coloum-two--------------    */
+
+.world-cup1 .coloum-two {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  width: 100%;
+}
+
+/* -------------------row1--------------- */
+
+.world-cup1 .coloum-two .row1 {
+  width: 20%;
+  padding-right: 10px;
+  
+}
+.world-cup1 .coloum-two .btn-group {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.world-cup1 .coloum-two .btn-group button {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  color: black;
+  border: none;
+}
+#btn-3 {
+  background: rgb(255, 0, 0);
+  color: white;
+  
+}
+
+/* ----------------row2----------- */
+
+.world-cup1 .coloum-two .row2 {
+  width: 80%;
+  
+  margin-left: 10%;
+}
+.world-cup1 .coloum-two .row2 .coloum1 {
+  display: flex;
+  flex-direction: row;
+  
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1 {
+ 
+  display: flex;
+  flex-direction: column;
+  background: #ffefd1;
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 2%;
+  margin-right:5%;
+
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1 h4{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1 .icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.world-cup1 .coloum-two .row2 .coloum1 .row-2 {
+  
+  display: flex;
+  flex-direction: column;
+  background: #ffefd1;
+  width: 40%;
+  padding: 5px;
+  margin-left:5%;
+
+  margin-bottom: 2%;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-2 h4{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-2 .icons{
+    display: flex;
+    flex-direction: row;
+   
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-2 .icons .row1{
+    display: flex;
+    flex-direction: row;
+  
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-2 .icons .row2{
+    display: flex;
+    flex-direction: row;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1 .icons .row1{
+    display: flex;
+    flex-direction: row;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1 .icons .row2{
+    display: flex;
+    flex-direction: row;
+}
+#btn-trensfer{
+    background: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+    width: 30%;
+    outline: none;
+    overflow: hidden;
+    padding: 3px 4px;
+    margin: 10px ;
+    
+}
+#time-icon{
+    padding-right:10px ;
+}
+#chat-icon{
+    padding-right: 10px;
+    
+}
+
+
+/* --------------footer------------------ */
+
+footer .coloum-three{
+    margin-top:10% ;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    
+}
+footer .coloum-three .coloum1{
+    width: 100vw;
+    border-bottom: 1px solid white;
+
+}
+footer .coloum-three .coloum1 h3{
+    text-align: center;
+    padding-bottom: 2%;
+}
+footer .coloum-three .coloum2{
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    justify-content: center;
+    padding: 2%;
+}
+#view-all  {
+    margin-top: 10%;
+   text-align: center;
+   display: none;
+}
+#view-all button{
+    
+    outline: none;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    padding: 15px 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .world-cup1 .coloum-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .world-cup1 .coloum-two .row1{
+        width: 75%;
+        
+    }
+    .world-cup1 .coloum-two .row1 .btn-group{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background: white;
+        text-align: center;
+        justify-content: center;
+       
+    }
+    .world-cup1 .coloum-two .row1 .btn-group button{
+        background: whitesmoke;
+        border: none;
+        padding: 15px 80px;
+    }
+    #view-all{
+        display: block;
+    }
+
+
+}
+@media only screen and (max-width: 768px){
+    .world-cup1 .coloum-one {
+        height: 30%;
+        width: 95%;
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+         padding: 3%;
+        
+      }
+      .world-cup1 .coloum-one .row1 {
+       
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    /* ------------------coloum-two----------- */
+    .world-cup1 .coloum-two  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.world-cup1 .coloum-two .row1 {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.world-cup1 .coloum-two .row1 .btn-group{
+    background: white;
+
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.world-cup1 .coloum-two .row2 {
+    margin: 0px;
+}
+.world-cup1 .coloum-two .row2 .coloum1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-1{
+    margin: 0px;
+    width: 90%;
+    margin-bottom: 3%;
+
+}
+.world-cup1 .coloum-two .row2 .coloum1 .row-2{
+    margin: 0px;
+    width: 90%;
+    margin-bottom: 3%;
+}
+/* ----------------coloum-three-------------- */
+footer .coloum-three .coloum2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   padding: 5%;
+   background: black;
+}
+}
